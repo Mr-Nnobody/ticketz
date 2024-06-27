@@ -17,7 +17,7 @@ const CustomButton = (props) => {
       <View>
         <View>{props.children}</View>
         <View>
-          <Text style={styles.text}></Text>
+          <Text style={styles.text}>{props.title}</Text>
         </View>
       </View>
     </TouchableOpacity>
